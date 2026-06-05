@@ -86,8 +86,8 @@ export function ConsultationForm() {
 
             <div className="mt-10 space-y-4">
               {[
-                { icon: Phone, label: "Відділ продажу", value: "+380 (44) 222 33 44" },
-                { icon: Mail, label: "Корпоративна пошта", value: "sales@rsfsolar.com" },
+                { icon: Phone, label: "Відділ продажу", value: "+38 (066) 804 25 23" },
+                { icon: Mail, label: "Корпоративна пошта", value: "Sales@rsf.com.ua" },
                 {
                   icon: MessageSquare,
                   label: "Telegram / Viber",

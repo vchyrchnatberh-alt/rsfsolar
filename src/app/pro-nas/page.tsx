@@ -6,7 +6,6 @@ import { PageHero } from "@/components/shared/PageHero";
 import { Container } from "@/components/ui/Container";
 import { Stats } from "@/components/about/Stats";
 import { Timeline } from "@/components/about/Timeline";
-import { Team } from "@/components/about/Team";
 import { CTABlock } from "@/components/shared/CTABlock";
 
 export const metadata: Metadata = {
@@ -109,7 +108,6 @@ export default function AboutPage() {
 
       <Stats />
       <Timeline />
-      <Team />
       <CTABlock />
     </>
   );

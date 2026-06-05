@@ -17,16 +17,16 @@ const departments = [
   {
     icon: ShoppingBag,
     title: "Відділ продажу",
-    phone: "+380 (44) 222 33 44",
-    email: "sales@rsfsolar.com",
+    phone: "+38 (066) 804 25 23",
+    email: "Sales@rsf.com.ua",
     hours: "Пн–Пт 09:00–19:00 · Сб 10:00–15:00",
     accent: "from-brand-500 to-brand-700",
   },
   {
     icon: Headphones,
     title: "Сервісний відділ",
-    phone: "+380 (67) 555 66 77",
-    email: "service@rsfsolar.com",
+    phone: "+38 (099) 154 54 32",
+    email: "Service@rsf.com.ua",
     hours: "Цілодобово · 24/7",
     accent: "from-ink-700 to-ink-900",
   },
@@ -90,9 +90,9 @@ export function ContactsContent() {
                   Головний офіс
                 </h3>
                 <p className="mt-3 text-sm text-ink-300">
-                  вул. Антоновича 102, БЦ "Step"
+                  вул. Рильського 9
                   <br />
-                  офіс 412, Київ, 03150
+                  Житомир, Україна
                 </p>
                 <div className="mt-5 flex gap-3">
                   <Link
@@ -103,7 +103,7 @@ export function ContactsContent() {
                     Telegram
                   </Link>
                   <Link
-                    href="viber://chat?number=+380442223344"
+                    href="viber://chat?number=+380668042523"
                     className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-medium hover:border-brand hover:bg-brand/20"
                   >
                     <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
@@ -124,8 +124,8 @@ export function ContactsContent() {
             className="relative aspect-[4/3] overflow-hidden rounded-[32px] border border-ink-100 lg:col-span-7 lg:aspect-auto"
           >
             <iframe
-              title="RSF Solar на карті"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=30.4900%2C50.4250%2C30.5500%2C50.4550&layer=mapnik&marker=50.4400%2C30.5200"
+              title="Royal Sun Flower на карті — вул. Рильського 9, Житомир"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=28.6450%2C50.2440%2C28.6750%2C50.2660&layer=mapnik&marker=50.2547%2C28.6584"
               className="absolute inset-0 h-full w-full grayscale-[20%]"
               loading="lazy"
             />
@@ -139,7 +139,7 @@ export function ContactsContent() {
                     Головний офіс
                   </p>
                   <p className="text-sm font-semibold text-ink-900">
-                    Київ, БЦ "Step"
+                    Житомир, вул. Рильського 9
                   </p>
                 </div>
               </div>

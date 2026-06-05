@@ -30,7 +30,7 @@ export function Footer() {
                   <Send className="h-4 w-4" />
                 </Link>
                 <Link
-                  href="viber://chat?number=+380442223344"
+                  href="viber://chat?number=+380668042523"
                   aria-label="Viber"
                   className="grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-white/5 text-white transition-colors hover:border-brand hover:bg-brand/20 hover:text-brand-300"
                 >
@@ -39,7 +39,7 @@ export function Footer() {
                   </svg>
                 </Link>
                 <Link
-                  href="mailto:info@rsfsolar.com"
+                  href="mailto:Sales@rsf.com.ua"
                   aria-label="Email"
                   className="grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-white/5 text-white transition-colors hover:border-brand hover:bg-brand/20 hover:text-brand-300"
                 >
@@ -115,27 +115,27 @@ export function Footer() {
                 <li className="flex items-start gap-3">
                   <Phone className="mt-0.5 h-4 w-4 text-brand-400" />
                   <div>
-                    <p className="text-white">+380 (44) 222 33 44</p>
+                    <p className="text-white">+38 (066) 804 25 23</p>
                     <p className="text-xs text-ink-500">Відділ продажу · Пн–Пт 9:00–19:00</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Phone className="mt-0.5 h-4 w-4 text-brand-400" />
                   <div>
-                    <p className="text-white">+380 (67) 555 66 77</p>
+                    <p className="text-white">+38 (099) 154 54 32</p>
                     <p className="text-xs text-ink-500">Сервісний відділ · 24/7</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Mail className="mt-0.5 h-4 w-4 text-brand-400" />
-                  <p className="text-ink-300">info@rsfsolar.com</p>
+                  <p className="text-ink-300">Sales@rsf.com.ua</p>
                 </li>
                 <li className="flex items-start gap-3">
                   <MapPin className="mt-0.5 h-4 w-4 text-brand-400" />
                   <p className="text-ink-300">
-                    вул. Антоновича 102, БЦ "Step", офіс 412
+                    вул. Рильського 9
                     <br />
-                    Київ, 03150, Україна
+                    Житомир, Україна
                   </p>
                 </li>
               </ul>

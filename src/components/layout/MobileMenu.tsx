@@ -134,7 +134,7 @@ export function MobileMenu({
                 Отримати консультацію
               </Link>
               <p className="mt-4 text-center text-xs text-ink-500">
-                +380 (44) 222 33 44 · sales@rsfsolar.com
+                +38 (066) 804 25 23 · Sales@rsf.com.ua
               </p>
             </div>
           </motion.aside>
