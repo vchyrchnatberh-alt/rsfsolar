@@ -7,7 +7,7 @@ import { CTABlock } from "@/components/shared/CTABlock";
 export const metadata: Metadata = {
   title: "Сертифікати",
   description:
-    "Сертифікати та ліцензії RSF Solar — ISO 9001, ISO 14001, авторизація Huawei, BYD, Jinko та інших виробників.",
+    "Сертифікати та ліцензії RSF — ISO 9001, ISO 14001, авторизація Huawei, BYD, Jinko та інших виробників.",
 };
 
 export default function CertificatesPage() {
@@ -16,7 +16,7 @@ export default function CertificatesPage() {
       <PageHero
         eyebrow="Сертифікати"
         title="Підтверджена якість та компетенція"
-        description="Колекція сертифікатів, авторизацій та ліцензій RSF Solar — від міжнародних стандартів якості до партнерських статусів виробників обладнання."
+        description="Колекція сертифікатів, авторизацій та ліцензій RSF — від міжнародних стандартів якості до партнерських статусів виробників обладнання."
         breadcrumbs={[
           { label: "Про компанію", href: "/pro-nas" },
           { label: "Сертифікати" },

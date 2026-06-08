@@ -7,7 +7,7 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 const milestones = [
   {
     year: "2014",
-    title: "Заснування RSF Solar",
+    title: "Заснування RSF",
     desc: "Команда з трьох інженерів запускає перші приватні СЕС у Київській області.",
   },
   {
@@ -45,7 +45,7 @@ export function Timeline() {
           align="center"
           eyebrow="Історія компанії"
           title="12 років інженерії та якісного сервісу"
-          description="Від трьох інженерів до команди з 45 спеціалістів — простежте етапи розвитку RSF Solar."
+          description="Від трьох інженерів до команди з 45 спеціалістів — простежте етапи розвитку RSF."
         />
 
         <div className="relative mt-16">

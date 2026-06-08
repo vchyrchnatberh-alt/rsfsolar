@@ -58,7 +58,7 @@ export function ConsultationForm() {
     setStatus("sending");
     try {
       await new Promise((r) => setTimeout(r, 1200));
-      console.info("[RSF Solar] consultation request:", form);
+      console.info("[RSF] consultation request:", form);
       setStatus("success");
       setForm({
         name: "",

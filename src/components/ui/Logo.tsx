@@ -11,7 +11,7 @@ export function Logo({
   return (
     <Link
       href="/"
-      aria-label="RSF Solar — головна"
+      aria-label="ROYALSUNFLOWER — головна"
       className={cn(
         "group inline-flex items-center gap-2.5",
         className,
@@ -35,11 +35,11 @@ export function Logo({
       <span className="flex flex-col leading-none">
         <span
           className={cn(
-            "font-display text-base font-bold tracking-tight",
+            "font-display text-[15px] font-extrabold tracking-tight",
             light ? "text-white" : "text-ink-900",
           )}
         >
-          RSF<span className="text-brand"> Solar</span>
+          ROYALSUNFLOWER
         </span>
         <span
           className={cn(
@@ -47,7 +47,7 @@ export function Logo({
             light ? "text-white/50" : "text-ink-500",
           )}
         >
-          Royal Sun Flower
+          Alternative Energetics
         </span>
       </span>
     </Link>

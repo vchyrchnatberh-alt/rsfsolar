@@ -75,7 +75,7 @@ export default async function NewsArticlePage({
 
           <article className="prose-custom mx-auto mt-12 max-w-3xl text-lg leading-relaxed text-ink-700">
             <p>
-              {article.excerpt} У цій статті інженери RSF Solar детально
+              {article.excerpt} У цій статті інженери RSF детально
               розповідають про деталі реалізації, технічні рішення та результати,
               які отримав замовник.
             </p>
@@ -85,7 +85,7 @@ export default async function NewsArticlePage({
             <p className="mt-4">
               Замовник звернувся з потребою зменшити витрати на електроенергію
               та забезпечити резервне живлення критичних процесів. Команда RSF
-              Solar провела комплексний енергоаудит, спроектувала рішення під
+              провела комплексний енергоаудит, спроектувала рішення під
               ключ та реалізувала його з дотриманням європейських стандартів.
             </p>
             <h2 className="mt-10 font-display text-2xl font-semibold text-ink-900">
@@ -109,7 +109,7 @@ export default async function NewsArticlePage({
             <div className="mt-12 flex items-center justify-between rounded-2xl border border-ink-100 bg-ink-50 px-6 py-4">
               <div className="flex items-center gap-3 text-sm text-ink-700">
                 <Calendar className="h-4 w-4 text-brand" />
-                {formatDate(article.date)} · RSF Solar
+                {formatDate(article.date)} · RSF
               </div>
               <button className="inline-flex items-center gap-2 text-sm font-medium text-brand">
                 <Share2 className="h-4 w-4" />

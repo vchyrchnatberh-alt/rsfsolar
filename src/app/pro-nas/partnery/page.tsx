@@ -7,7 +7,7 @@ import { PartnersGrid } from "@/components/about/PartnersGrid";
 export const metadata: Metadata = {
   title: "Партнери",
   description:
-    "Партнери RSF Solar — Huawei, BYD, Jinko Solar, LONGi, Sungrow та інші Tier-1 виробники обладнання.",
+    "Партнери RSF — Huawei, BYD, Jinko Solar, LONGi, Sungrow та інші Tier-1 виробники обладнання.",
 };
 
 export default function PartnersPage() {

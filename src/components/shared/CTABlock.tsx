@@ -7,7 +7,7 @@ import { Container } from "@/components/ui/Container";
 
 export function CTABlock({
   title = "Обговоримо ваш проект?",
-  description = "Залиште заявку та отримайте безкоштовну консультацію інженера RSF Solar протягом 24 годин.",
+  description = "Залиште заявку та отримайте безкоштовну консультацію інженера RSF протягом 24 годин.",
   primaryLabel = "Отримати консультацію",
   primaryHref = "/kontakty",
 }: {

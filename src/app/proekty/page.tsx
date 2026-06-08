@@ -7,7 +7,7 @@ import { CTABlock } from "@/components/shared/CTABlock";
 export const metadata: Metadata = {
   title: "Проекти",
   description:
-    "Реалізовані проекти RSF Solar — комерційні, промислові та приватні СЕС в Україні, Польщі та Німеччині.",
+    "Реалізовані проекти RSF — комерційні, промислові та приватні СЕС в Україні, Польщі та Німеччині.",
 };
 
 export default function ProjectsPage() {

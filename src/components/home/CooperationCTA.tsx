@@ -27,7 +27,7 @@ export function CooperationCTA() {
                 Партнерство та підряд
               </span>
               <h2 className="heading mt-6 text-display-md text-white text-balance">
-                Будуйте альтернативну енергетику разом з RSF Solar
+                Будуйте альтернативну енергетику разом з RSF
               </h2>
               <p className="mt-5 max-w-xl text-white/85">
                 Запрошуємо до співпраці девелоперів, проектні бюро,

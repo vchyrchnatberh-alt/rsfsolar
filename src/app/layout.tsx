@@ -20,18 +20,18 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   metadataBase: new URL("https://rsfsolar.com"),
   title: {
-    default: "RSF Solar — Альтернативна енергетика в Україні",
-    template: "%s | RSF Solar",
+    default: "RSF — Альтернативна енергетика в Україні",
+    template: "%s | RSF",
   },
   description:
-    "RSF Solar — будівництво сонячних електростанцій, монтаж БЕСС, резервні генератори та електромонтажні роботи в Україні та Європі. Понад 240 реалізованих об'єктів.",
+    "RSF — будівництво сонячних електростанцій, монтаж БЕСС, резервні генератори та електромонтажні роботи в Україні та Європі. Понад 240 реалізованих об'єктів.",
   keywords: [
     "сонячні електростанції",
     "СЕС під ключ",
     "БЕСС",
     "BESS",
     "альтернативна енергетика",
-    "RSF Solar",
+    "RSF",
     "сонячні панелі",
     "монтаж СЕС",
   ],
@@ -39,14 +39,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "uk_UA",
     url: "https://rsfsolar.com",
-    title: "RSF Solar — Альтернативна енергетика в Україні",
+    title: "RSF — Альтернативна енергетика в Україні",
     description:
-      "Будівництво СЕС, BESS, резервне живлення та електромонтажні роботи від інженерів RSF Solar.",
-    siteName: "RSF Solar",
+      "Будівництво СЕС, BESS, резервне живлення та електромонтажні роботи від інженерів RSF.",
+    siteName: "RSF",
   },
   twitter: {
     card: "summary_large_image",
-    title: "RSF Solar — Альтернативна енергетика",
+    title: "RSF — Альтернативна енергетика",
     description:
       "Будівництво СЕС, BESS, резервне живлення та електромонтажні роботи.",
   },
