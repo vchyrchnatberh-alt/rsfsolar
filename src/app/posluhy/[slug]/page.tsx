@@ -145,7 +145,7 @@ export default async function ServiceDetailPage({
       </section>
 
       <CTABlock
-        title={`Готові обговорити ${service.title.toLowerCase()}?`}
+        title={`Готові обговорити ${service.title.charAt(0).toLowerCase() + service.title.slice(1)}?`}
         description="Інженер ROYALSUNFLOWER підготує попередній прорахунок, специфікацію обладнання та терміни реалізації проекту."
       />
     </>
