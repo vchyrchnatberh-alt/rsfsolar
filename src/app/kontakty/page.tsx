@@ -5,7 +5,7 @@ import { ContactsContent } from "@/components/contacts/ContactsContent";
 export const metadata: Metadata = {
   title: "Контакти",
   description:
-    "Контакти RSF — відділ продажу, сервіс, головний офіс у Києві. Telegram, Viber, корпоративна пошта.",
+    "Контакти ROYALSUNFLOWER — відділ продажу, сервіс, головний офіс у Києві. Telegram, Viber, корпоративна пошта.",
 };
 
 export default function ContactsPage() {

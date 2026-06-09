@@ -7,7 +7,7 @@ import { CareerForm } from "@/components/about/CareerForm";
 export const metadata: Metadata = {
   title: "Кар'єра",
   description:
-    "Робота в RSF — приєднуйтесь до команди інженерів, що розвиває альтернативну енергетику в Україні та Європі.",
+    "Робота в ROYALSUNFLOWER — приєднуйтесь до команди інженерів, що розвиває альтернативну енергетику в Україні та Європі.",
 };
 
 const perks = [
@@ -24,7 +24,7 @@ export default function CareerPage() {
     <>
       <PageHero
         eyebrow="Кар'єра"
-        title="Будуйте енергонезалежне майбутнє разом з RSF"
+        title="Будуйте енергонезалежне майбутнє разом з ROYALSUNFLOWER"
         description="Ми шукаємо інженерів, проектувальників, електромонтажників та менеджерів. Якщо вас драйвить альтернативна енергетика — нам по дорозі."
         breadcrumbs={[
           { label: "Про компанію", href: "/pro-nas" },
@@ -37,10 +37,10 @@ export default function CareerPage() {
           <div className="grid gap-12 lg:grid-cols-12">
             <div className="lg:col-span-5">
               <h2 className="heading text-display-md text-ink-900 text-balance">
-                Чому в RSF
+                Чому в ROYALSUNFLOWER
               </h2>
               <p className="mt-5 text-ink-600 leading-relaxed">
-                Команда RSF — це 45 спеціалістів, які люблять інженерію та
+                Команда ROYALSUNFLOWER — це 45 спеціалістів, які люблять інженерію та
                 поважають енергонезалежність. Працюємо за прозорими процесами,
                 цінуємо результат, інвестуємо в розвиток співробітників.
               </p>

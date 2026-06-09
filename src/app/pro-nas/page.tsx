@@ -11,7 +11,7 @@ import { CTABlock } from "@/components/shared/CTABlock";
 export const metadata: Metadata = {
   title: "Про компанію",
   description:
-    "RSF — українська інжинірингова компанія з 12-річним досвідом будівництва альтернативної енергетики.",
+    "ROYALSUNFLOWER — українська інжинірингова компанія з 12-річним досвідом будівництва альтернативної енергетики.",
 };
 
 const values = [
@@ -38,7 +38,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="Про компанію"
         title="Інжиніринг альтернативної енергетики з 2014 року"
-        description="RSF — українська компанія, яка проектує та будує об'єкти відновлюваної енергетики. Понад 240 завершених проектів в Україні та Європі."
+        description="ROYALSUNFLOWER — українська компанія, яка проектує та будує об'єкти відновлюваної енергетики. Понад 240 завершених проектів в Україні та Європі."
         breadcrumbs={[{ label: "Про компанію" }]}
       />
 
@@ -48,7 +48,7 @@ export default function AboutPage() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-[32px] lg:col-span-5">
               <Image
                 src="https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1200&q=80"
-                alt="Команда RSF на об'єкті"
+                alt="Команда ROYALSUNFLOWER на об'єкті"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover"
@@ -61,14 +61,14 @@ export default function AboutPage() {
                 Ми будуємо інфраструктуру, на якій тримається енергонезалежність
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-ink-600">
-                RSF народилася у 2014 році, коли троє інженерів зрозуміли:
+                ROYALSUNFLOWER народилася у 2014 році, коли троє інженерів зрозуміли:
                 Україні потрібен новий стандарт у альтернативній енергетиці —
                 чесний, технологічний, без посередників. За 12 років ми
                 розрослись до команди з 45 спеціалістів і відкрили офіси у Києві,
                 Львові та Варшаві.
               </p>
               <p className="mt-5 text-ink-600 leading-relaxed">
-                Сьогодні RSF — це EPC-підрядник з власним проектним бюро,
+                Сьогодні ROYALSUNFLOWER — це EPC-підрядник з власним проектним бюро,
                 сервісною службою та R&D-командою, яка розробляє внутрішні
                 інструменти моніторингу та прогнозування генерації.
               </p>

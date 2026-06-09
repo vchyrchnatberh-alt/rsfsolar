@@ -7,7 +7,7 @@ import { CTABlock } from "@/components/shared/CTABlock";
 export const metadata: Metadata = {
   title: "Каталог обладнання",
   description:
-    "Каталог обладнання RSF: сонячні панелі, інвертори, акумуляторні системи та генератори від провідних світових виробників.",
+    "Каталог обладнання ROYALSUNFLOWER: сонячні панелі, інвертори, акумуляторні системи та генератори від провідних світових виробників.",
 };
 
 export default function EquipmentPage() {
@@ -32,7 +32,7 @@ export default function EquipmentPage() {
 
       <CTABlock
         title="Потрібна допомога з підбором обладнання?"
-        description="Інженер RSF безкоштовно підбере оптимальну конфігурацію під ваш об'єкт і бюджет."
+        description="Інженер ROYALSUNFLOWER безкоштовно підбере оптимальну конфігурацію під ваш об'єкт і бюджет."
       />
     </>
   );

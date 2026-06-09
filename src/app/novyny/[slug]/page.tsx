@@ -75,7 +75,7 @@ export default async function NewsArticlePage({
 
           <article className="prose-custom mx-auto mt-12 max-w-3xl text-lg leading-relaxed text-ink-700">
             <p>
-              {article.excerpt} У цій статті інженери RSF детально
+              {article.excerpt} У цій статті інженери ROYALSUNFLOWER детально
               розповідають про деталі реалізації, технічні рішення та результати,
               які отримав замовник.
             </p>
@@ -84,7 +84,7 @@ export default async function NewsArticlePage({
             </h2>
             <p className="mt-4">
               Замовник звернувся з потребою зменшити витрати на електроенергію
-              та забезпечити резервне живлення критичних процесів. Команда RSF
+              та забезпечити резервне живлення критичних процесів. Команда ROYALSUNFLOWER
               провела комплексний енергоаудит, спроектувала рішення під
               ключ та реалізувала його з дотриманням європейських стандартів.
             </p>
@@ -95,7 +95,7 @@ export default async function NewsArticlePage({
               <li>Сонячні модулі Jinko Tiger Neo з ККД 22.5%</li>
               <li>Інвертори Huawei SUN2000 з AI-моніторингом</li>
               <li>Промислові акумулятори BYD Battery-Box</li>
-              <li>Хмарна SCADA-платформа RSF Sense</li>
+              <li>Хмарна SCADA-платформа ROYALSUNFLOWER Sense</li>
             </ul>
             <h2 className="mt-10 font-display text-2xl font-semibold text-ink-900">
               Результати
@@ -109,7 +109,7 @@ export default async function NewsArticlePage({
             <div className="mt-12 flex items-center justify-between rounded-2xl border border-ink-100 bg-ink-50 px-6 py-4">
               <div className="flex items-center gap-3 text-sm text-ink-700">
                 <Calendar className="h-4 w-4 text-brand" />
-                {formatDate(article.date)} · RSF
+                {formatDate(article.date)} · ROYALSUNFLOWER
               </div>
               <button className="inline-flex items-center gap-2 text-sm font-medium text-brand">
                 <Share2 className="h-4 w-4" />

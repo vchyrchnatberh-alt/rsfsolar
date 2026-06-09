@@ -7,7 +7,7 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 const milestones = [
   {
     year: "2014",
-    title: "Заснування RSF",
+    title: "Заснування ROYALSUNFLOWER",
     desc: "Команда з трьох інженерів запускає перші приватні СЕС у Київській області.",
   },
   {
@@ -32,7 +32,7 @@ const milestones = [
   },
   {
     year: "2026",
-    title: "AI-платформа RSF Sense",
+    title: "AI-платформа ROYALSUNFLOWER Sense",
     desc: "Почали розробку власної платформи прогнозування генерації на машинному навчанні.",
   },
 ];
@@ -45,7 +45,7 @@ export function Timeline() {
           align="center"
           eyebrow="Історія компанії"
           title="12 років інженерії та якісного сервісу"
-          description="Від трьох інженерів до команди з 45 спеціалістів — простежте етапи розвитку RSF."
+          description="Від трьох інженерів до команди з 45 спеціалістів — простежте етапи розвитку ROYALSUNFLOWER."
         />
 
         <div className="relative mt-16">

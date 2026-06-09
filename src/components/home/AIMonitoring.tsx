@@ -77,7 +77,7 @@ export function AIMonitoring() {
                   <span className="h-3 w-3 rounded-full bg-green-400/80" />
                 </div>
                 <p className="text-xs uppercase tracking-wider text-ink-400">
-                  RSF SCADA · object #2143
+                  ROYALSUNFLOWER SCADA · object #2143
                 </p>
                 <span className="relative flex h-2 w-2">
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-400/70" />

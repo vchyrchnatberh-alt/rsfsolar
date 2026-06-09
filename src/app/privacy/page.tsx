@@ -5,7 +5,7 @@ import { Container } from "@/components/ui/Container";
 export const metadata: Metadata = {
   title: "Політика конфіденційності",
   description:
-    "Політика конфіденційності RSF — як ми збираємо, обробляємо та зберігаємо ваші персональні дані.",
+    "Політика конфіденційності ROYALSUNFLOWER — як ми збираємо, обробляємо та зберігаємо ваші персональні дані.",
 };
 
 export default function PrivacyPage() {
@@ -14,7 +14,7 @@ export default function PrivacyPage() {
       <PageHero
         eyebrow="Документ"
         title="Політика конфіденційності"
-        description="Цей документ описує, як RSF збирає, обробляє та зберігає персональні дані користувачів сайту та клієнтів."
+        description="Цей документ описує, як ROYALSUNFLOWER збирає, обробляє та зберігає персональні дані користувачів сайту та клієнтів."
         breadcrumbs={[{ label: "Політика конфіденційності" }]}
       />
 
@@ -22,7 +22,7 @@ export default function PrivacyPage() {
         <Container>
           <article className="prose-custom mx-auto max-w-3xl space-y-6 text-ink-700 leading-relaxed">
             <p>
-              RSF дотримується вимог Закону України "Про захист
+              ROYALSUNFLOWER дотримується вимог Закону України "Про захист
               персональних даних" та GDPR при роботі з відвідувачами сайту з
               ЄС. Ми збираємо мінімально необхідний обсяг даних та
               використовуємо їх виключно для зв'язку з клієнтом і

@@ -7,7 +7,7 @@ import { CTABlock } from "@/components/shared/CTABlock";
 export const metadata: Metadata = {
   title: "Новини",
   description:
-    "Новини альтернативної енергетики, кейси та інженерні матеріали від команди RSF.",
+    "Новини альтернативної енергетики, кейси та інженерні матеріали від команди ROYALSUNFLOWER.",
 };
 
 export default function NewsPage() {
@@ -16,7 +16,7 @@ export default function NewsPage() {
       <PageHero
         eyebrow="Новини та блог"
         title="Інсайти, кейси та новини індустрії"
-        description="Запуски нових проектів, експертні матеріали від інженерів RSF та новини світу альтернативної енергетики."
+        description="Запуски нових проектів, експертні матеріали від інженерів ROYALSUNFLOWER та новини світу альтернативної енергетики."
         breadcrumbs={[{ label: "Новини" }]}
       />
 

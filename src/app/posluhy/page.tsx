@@ -8,7 +8,7 @@ import { DesignProcess } from "@/components/home/DesignProcess";
 export const metadata: Metadata = {
   title: "Послуги",
   description:
-    "Послуги RSF — будівництво СЕС, монтаж BESS, резервні генератори, електромонтажні роботи та сервісне обслуговування об'єктів альтернативної енергетики.",
+    "Послуги ROYALSUNFLOWER — будівництво СЕС, монтаж BESS, резервні генератори, електромонтажні роботи та сервісне обслуговування об'єктів альтернативної енергетики.",
 };
 
 export default function ServicesPage() {

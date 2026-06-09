@@ -152,7 +152,7 @@ export function Footer() {
                 Українська компанія
               </span>
               <p className="text-xs text-ink-500">
-                © {year} RSF. Всі права захищено.
+                © {year} ROYALSUNFLOWER. Всі права захищено.
               </p>
             </div>
             <div className="flex items-center gap-6 text-xs text-ink-500">

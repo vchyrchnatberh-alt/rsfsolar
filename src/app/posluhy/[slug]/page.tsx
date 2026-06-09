@@ -104,7 +104,7 @@ export default async function ServiceDetailPage({
                     <Sparkles className="h-5 w-5" />
                   </span>
                   <h3 className="mt-5 font-display text-xl font-semibold text-ink-900">
-                    Чому RSF
+                    Чому ROYALSUNFLOWER
                   </h3>
                   <ul className="mt-4 space-y-3 text-sm text-ink-600">
                     <li>· Понад 240 реалізованих об'єктів</li>
@@ -146,7 +146,7 @@ export default async function ServiceDetailPage({
 
       <CTABlock
         title={`Готові обговорити ${service.title.toLowerCase()}?`}
-        description="Інженер RSF підготує попередній прорахунок, специфікацію обладнання та терміни реалізації проекту."
+        description="Інженер ROYALSUNFLOWER підготує попередній прорахунок, специфікацію обладнання та терміни реалізації проекту."
       />
     </>
   );
