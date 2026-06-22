@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Manrope } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -67,6 +68,19 @@ export default function RootLayout({
   return (
     <html lang="uk" className={`${inter.variable} ${manrope.variable}`}>
       <body className="bg-white text-ink-900 antialiased">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-GTGP4TSX5N"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GTGP4TSX5N');
+          `}
+        </Script>
+
         <ScrollProgress />
         <Header />
         <main className="overflow-hidden">{children}</main>
