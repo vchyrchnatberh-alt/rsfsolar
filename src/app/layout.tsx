@@ -5,7 +5,8 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ScrollProgress } from "@/components/ui/ScrollProgress";
-import { ChatWidget } from "@/components/chat/ChatWidget";
+// Тимчасово прихований — розкоментувати щоб знову показати бота на сайті.
+// import { ChatWidget } from "@/components/chat/ChatWidget";
 
 const inter = Inter({
   subsets: ["latin", "cyrillic"],
@@ -161,7 +162,8 @@ export default function RootLayout({
         <Header />
         <main className="overflow-hidden">{children}</main>
         <Footer />
-        <ChatWidget />
+        {/* Тимчасово прихований — розкоментувати щоб знову показати бота на сайті. */}
+        {/* <ChatWidget /> */}
       </body>
     </html>
   );
