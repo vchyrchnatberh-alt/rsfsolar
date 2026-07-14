@@ -50,7 +50,7 @@ export default function PrivacyPage() {
             </h2>
             <p>
               Ви маєте право запросити, виправити або видалити ваші персональні
-              дані. Для цього напишіть нам на privacy@rsfsolar.com.
+              дані. Для цього напишіть нам на Sales@rsf.com.ua.
             </p>
           </article>
         </Container>

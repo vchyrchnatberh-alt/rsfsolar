@@ -480,6 +480,7 @@ export const navigation = [
     children: services.map((s) => ({ label: s.title, href: `/posluhy/${s.slug}` })),
   },
   { label: "Проєкти", href: "/#proekty" },
+  { label: "Калькулятор", href: "/kalkulyator" },
   {
     label: "Про компанію",
     href: "/pro-nas",
@@ -488,9 +489,10 @@ export const navigation = [
       { label: "Сертифікати", href: "/pro-nas/sertyfikaty" },
       { label: "Партнери", href: "/pro-nas/partnery" },
       { label: "Кар'єра", href: "/pro-nas/kariera" },
+      { label: "Каталог", href: "/obladnannya" },
     ],
   },
-  { label: "Каталог", href: "/obladnannya" },
+  { label: "Вакансії", href: "/vakansii" },
   { label: "Новини", href: "/novyny" },
   { label: "Консультація", href: "/#kontakty" },
 ];

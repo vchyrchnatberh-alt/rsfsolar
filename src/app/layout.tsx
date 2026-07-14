@@ -5,6 +5,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ScrollProgress } from "@/components/ui/ScrollProgress";
+import { ChatWidget } from "@/components/chat/ChatWidget";
 
 const inter = Inter({
   subsets: ["latin", "cyrillic"],
@@ -19,27 +20,60 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rsfsolar.com"),
+  metadataBase: new URL("https://rsf.com.ua"),
   title: {
-    default: "ROYALSUNFLOWER — Альтернативна енергетика в Україні",
-    template: "%s | ROYALSUNFLOWER",
+    default:
+      "Сонячні панелі та СЕС під ключ в Україні — Royal Sun Flower",
+    template: "%s | Royal Sun Flower",
   },
   description:
-    "ROYALSUNFLOWER — будівництво сонячних електростанцій, монтаж БЕСС, резервні генератори та електромонтажні роботи в Україні та Європі. Понад 240 реалізованих об'єктів.",
+    "Встановлення сонячних електростанцій під ключ від $850/кВт. Монтаж сонячних панелей для дому та бізнесу, гібридні СЕС з БЕСС, гарантія 25 років. Понад 240 об'єктів по всій Україні.",
   keywords: [
+    // Основні запити
+    "сонячні панелі",
+    "сонячні панелі Україна",
+    "сонячні панелі ціна",
     "сонячні електростанції",
+    "сонячні електростанції під ключ",
+    "СЕС для дому",
+    "СЕС для бізнесу",
     "СЕС під ключ",
+    "монтаж сонячних панелей",
+    "монтаж СЕС",
+    "встановлення сонячних панелей",
+    "купити сонячні панелі",
+    "сонячна батарея на дах",
+    // Обладнання
     "БЕСС",
     "BESS",
+    "накопичувач енергії",
+    "гібридна сонячна станція",
+    "гібридна СЕС",
+    "акумулятори для дому",
+    // Тарифи і послуги
+    "зелений тариф",
     "альтернативна енергетика",
+    "автономне живлення",
+    "резервне живлення",
+    "проектування СЕС",
+    // Регіони
+    "сонячні панелі Київ",
+    "сонячні панелі Житомир",
+    "сонячні панелі Львів",
+    "сонячні панелі Дніпро",
+    "сонячні панелі Одеса",
+    // Бренди-партнери (люди шукають конкретні бренди)
+    "LONGi Україна",
+    "Huawei інвертор",
+    "Deye інвертор",
+    // Компанія
+    "Royal Sun Flower",
     "ROYALSUNFLOWER",
-    "сонячні панелі",
-    "монтаж СЕС",
   ],
   openGraph: {
     type: "website",
     locale: "uk_UA",
-    url: "https://rsfsolar.com",
+    url: "https://rsf.com.ua",
     title: "ROYALSUNFLOWER — Альтернативна енергетика в Україні",
     description:
       "Будівництво СЕС, BESS, резервне живлення та електромонтажні роботи від інженерів ROYALSUNFLOWER.",
@@ -65,9 +99,51 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Royal Sun Flower",
+    alternateName: "ROYALSUNFLOWER",
+    description:
+      "Встановлення сонячних електростанцій під ключ, монтаж сонячних панелей для дому та бізнесу, гібридні СЕС з БЕСС.",
+    url: "https://rsf.com.ua",
+    telephone: ["+380668042523", "+380991545432"],
+    email: "Sales@rsf.com.ua",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "вул. Рильського, 9",
+      addressLocality: "Житомир",
+      addressCountry: "UA",
+    },
+    areaServed: {
+      "@type": "Country",
+      name: "Україна",
+    },
+    priceRange: "$$",
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+      ],
+      opens: "09:00",
+      closes: "19:00",
+    },
+    sameAs: [],
+  };
+
   return (
     <html lang="uk" className={`${inter.variable} ${manrope.variable}`}>
       <body className="bg-white text-ink-900 antialiased">
+        <Script
+          id="ld-organization"
+          type="application/ld+json"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-GTGP4TSX5N"
           strategy="afterInteractive"
@@ -85,6 +161,7 @@ export default function RootLayout({
         <Header />
         <main className="overflow-hidden">{children}</main>
         <Footer />
+        <ChatWidget />
       </body>
     </html>
   );

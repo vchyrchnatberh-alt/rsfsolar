@@ -1,18 +1,22 @@
 import type { MetadataRoute } from "next";
 import { news, services } from "@/lib/data";
+import { vacancies } from "@/lib/vacancies";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://rsfsolar.com";
+  const base = "https://rsf.com.ua";
   const now = new Date();
 
   const staticPaths = [
     "",
     "/posluhy",
     "/proekty",
+    "/kalkulyator",
     "/pro-nas",
     "/pro-nas/sertyfikaty",
     "/pro-nas/partnery",
     "/pro-nas/kariera",
+    "/vakansii",
+    "/forum",
     "/obladnannya",
     "/novyny",
     "/kontakty",
@@ -36,6 +40,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(n.date),
       changeFrequency: "monthly" as const,
       priority: 0.6,
+    })),
+    ...vacancies.map((v) => ({
+      url: `${base}/vakansii/${v.slug}`,
+      lastModified: new Date(v.publishedAt),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
     })),
   ];
 }
