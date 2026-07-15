@@ -81,7 +81,7 @@ export async function POST(req: NextRequest) {
 
     // Виклик Gemini — без інструментів, простий вільний чат
     const result = await generateText({
-      model: google("gemini-2.0-flash-001"),
+      model: google('gemini-1.5-flash'),
       system: SOLAR_SYSTEM_PROMPT,
       messages,
     });
